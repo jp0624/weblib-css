@@ -11,6 +11,16 @@ body {
 	font-size: 13px;
 	padding: 2.5%;
 }
+ol {
+	list-style-type: decimal;
+	color: #66d9ef;
+	font-size: 18px;
+	padding-left: 20px;
+	float: left;
+}
+ol li {
+	font-size: 12px;
+}
 .example {
 	margin: 20px 0;
 	width: 100%;
@@ -34,6 +44,7 @@ body {
 	color: #a6e22a
 }
 .example h3 em {
+	font-style: italic;
 	color: #fd971f;
 }
 .example code {
