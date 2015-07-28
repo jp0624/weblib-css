@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Utilities</title>
+    <script type="text/javascript" src="/weblib/external/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/weblib/core/utilities.js"></script>
+    
+    <link href="/css/reset.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/base.css" rel="stylesheet" type="text/css">
+    <link href="/css/example.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="example">
+	<script>
+        getWinSize();
+    </script>
+    <h3>function <span>getWinSize</span>(<em></em>)</h3>
+    <p>
+    /** <br />
+    * Get the window size. <br />
+    * @return {Object} and object with {x,y} representing the width and height of the window respectively. <br />
+    */ <br />
+ 	</p>
+    <code>
+        <dl>
+            <dt>winSize.x = </dt>
+            <dd class="output">
+                <script>
+                    document.write(winSize.x);
+                </script>
+            </dd>
+            <dt>winSize.y = </dt>
+            <dd class="output">
+                <script>
+                    document.write(winSize.y);
+                </script>
+            </dd>
+        </dl>
+    </code>
+</div>
+
+<div class="example">
+	<script>
+        getCurDate();
+    </script>
+    <h3>function <span>getCurDate</span>(<em></em>)</h3>
+    <p>
+    /** <br />
+    * Get the current date. <br />
+    * @return {Object} and object with {d,m,y} representing the day, month and year. <br />
+    */ <br />
+ 	</p>
+    <code>
+        <dl>
+            <dt>curDate.d = </dt>
+            <dd class="output">
+                <script>
+                    document.write(curDate.d);
+                </script>
+            </dd>
+            <dt>curDate.m = </dt>
+            <dd class="output">
+                <script>
+                    document.write(curDate.m);
+                </script>
+            </dd>
+            <dt>curDate.y = </dt>
+            <dd class="output">
+                <script>
+                    document.write(curDate.y);
+                </script>
+            </dd>
+        </dl>
+    </code>
+</div>
+
+<div class="example">
+    <h3>$(element)<span>.exists</span>(<em></em>)</h3>
+    
+    <code>
+        <dl>
+            <dt>if exists = </dt>
+            <dd class="output">
+				true
+            </dd>
+            <dt>if doesn't exist = </dt>
+            <dd class="output">
+            	false
+            </dd>
+        </dl>
+    </code>
+</div>
+
+
+
+
+<div class="example">
+    <h3>function <span>getOrientationOf</span>(<em>element</em>)</h3>
+    <p>
+    /** <br />
+    * Set base site origin variable. <br />
+    * @param  {string} class/id of element to be check for its orientation. <br />
+    * @return {classname} - Set orientation class name to element specifie. <br />
+    */	
+    </p>
+    <code>
+        <dl>
+            <dt>site.winSize.y > site.winSize.x </dt>
+            <dd class="output">
+				portrait
+            </dd>
+            <dt>site.winSize.x > site.winSize.y </dt>
+            <dd class="output">
+            	landscape
+            </dd>
+        </dl>
+    </code>
+</div>
+
+</body>
+</html>

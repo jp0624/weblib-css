@@ -46,8 +46,8 @@ iframe.iphone {
 	background-position: top right;
 	padding-right: 17px;
 	*/
-	padding-right: 5px;
-	border-right: 10px solid #0f71b8;
+	padding: 0 5px;
+	border-right: 7px solid #0f71b8;
 	width: 7%;
 	height: 100%;
 	position: relative;
